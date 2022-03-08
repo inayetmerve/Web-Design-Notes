@@ -1,0 +1,53 @@
+/*tüm anasayfa-li classı taşıyanlar*/
+        .anasayfa-li
+        {
+            float: left;
+            margin-right:5px;
+            list-style-type: none;
+            background-color:rgb(176, 200, 231);
+            padding: 4px;
+            border-radius: 5px;
+
+        }
+        main{
+            background-color: tomato; 
+            padding: 1rem;
+        }
+         /* aşağıdaki css hem ul hem ol için geçerlidir*/
+        ul,ol
+        {
+            list-style-type: none;
+        }
+        section
+        {
+            background-color: bisque; 
+            display: inline;
+        }
+        /*Id si section2 olan sectiona uygula*/
+
+        section#section2
+        {
+            background-color: rgb(32, 194, 145);
+            display: block;
+        }
+        .kutu .bolum 
+        {
+            background-color: cadetblue;
+        }
+        .kutu.bolum
+        {
+            background-color: rgb(64, 148, 92);
+        }
+        .kutu
+        {
+            border: 5px solid darkblue;
+        }
+        .bolum
+        {
+            border:6px dashed pink;
+        }
+        li:nth-child(2)
+        {
+            height:30px;
+            border-radius: 50%;
+        }
